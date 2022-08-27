@@ -1,5 +1,5 @@
 # AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
-# CRC32 dda0abeb
+# CRC32 65cafe47
 dn: olcDatabase={1}mdb
 objectClass: olcDatabaseConfig
 objectClass: olcMdbConfig
@@ -8,13 +8,13 @@ olcDbDirectory: /var/lib/ldap
 olcSuffix: dc=elilocal,dc=com
 olcLastMod: TRUE
 olcRootDN: cn=admin,dc=elilocal,dc=com
-olcRootPW:: e1NTSEF9b1VHVzFvVlFmb0lwUGdiV2d1SitwMGNaWEI0WUwvaW4=
+olcRootPW:: e1NTSEF9dzlhcjZuNFd6Z3l3VWd1b1NlVXRRQmRaQ05Xa1dHU0M=
 olcDbCheckpoint: 512 30
 olcDbMaxSize: 1073741824
 structuralObjectClass: olcMdbConfig
-entryUUID: 207482ea-b9ad-103c-9812-93f9f2002d09
+entryUUID: 6183c514-ba5e-103c-9a63-49368200b406
 creatorsName: cn=admin,cn=config
-createTimestamp: 20220826170610Z
+createTimestamp: 20220827141500Z
 olcDbIndex: uid eq
 olcDbIndex: mail eq
 olcDbIndex: memberOf eq
@@ -27,6 +27,6 @@ olcAccess: {1}to attrs=userPassword,shadowLastChange by self write by dn="cn
  =admin,dc=elilocal,dc=com" write by anonymous auth by * none
 olcAccess: {2}to * by self read by dn="cn=admin,dc=elilocal,dc=com" write by
   dn="cn=user-eo,dc=elilocal,dc=com" read by * none
-entryCSN: 20220826170611.002389Z#000000#000#000000
+entryCSN: 20220827141501.421160Z#000000#000#000000
 modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-modifyTimestamp: 20220826170611Z
+modifyTimestamp: 20220827141501Z

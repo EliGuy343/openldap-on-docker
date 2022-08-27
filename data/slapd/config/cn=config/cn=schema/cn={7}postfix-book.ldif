@@ -1,5 +1,5 @@
 # AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
-# CRC32 0fadbd3a
+# CRC32 d283571d
 dn: cn={7}postfix-book
 objectClass: olcSchemaConfig
 cn: {7}postfix-book
@@ -42,9 +42,9 @@ olcObjectClasses: {1}( 1.3.6.1.4.1.29426.1.2.2.2 NAME 'PostfixBookMailForwar
  d' DESC 'Mail forward used in Postfix Book' SUP top AUXILIARY MUST ( mail $
   mailAlias ) MAY mailForwardingAddress )
 structuralObjectClass: olcSchemaConfig
-entryUUID: 20b8f268-b9ad-103c-8288-c760939a107a
+entryUUID: 61dbb490-ba5e-103c-9925-cd24510fc588
 creatorsName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-createTimestamp: 20220826170610Z
-entryCSN: 20220826170610.711167Z#000000#000#000000
+createTimestamp: 20220827141500Z
+entryCSN: 20220827141500.911993Z#000000#000#000000
 modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
-modifyTimestamp: 20220826170610Z
+modifyTimestamp: 20220827141500Z
